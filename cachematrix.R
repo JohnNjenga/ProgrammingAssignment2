@@ -1,1 +1,7 @@
-#This function creates a special matrix object that can cache its inverse
+ MakeChacheMatrix<-function(x=matrix()){
+m<-NULL
+set<-function(y){
+x<<y
+m<<-NULL
+}
+}
